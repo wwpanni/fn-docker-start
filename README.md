@@ -20,6 +20,12 @@ Compose部署修改方法如下（该方法修改后请手动构建一次以应�
 ```bash
  curl -s https://github.com/wwpanni/fn-docker-start/blob/main/fndocker.sh -o /tmp/fndocker.sh && sudo bash /tmp/fndocker.sh && rm /tmp/fndocker.sh
 ```
+
+国内加速
+
+```bash
+ curl -s https://git.wwok.top/https://github.com/wwpanni/fn-docker-start/blob/main/fndocker.sh -o /tmp/fndocker.sh && sudo bash /tmp/fndocker.sh && rm /tmp/fndocker.sh
+```
 ![165053cbgnggf0niboqiig](https://github.com/user-attachments/assets/fa728bbc-cbfb-4da4-b939-227403b98229)
 
 创建完成后，即可重启查看效果，无需进行其他设置。
