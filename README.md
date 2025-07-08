@@ -20,3 +20,11 @@ Compose部署修改方法如下（该方法修改后请手动构建一次以应�
 ```bash
  curl -s https://gitee.com/ewedl/fn-docker-delay/raw/master/fndocker.sh -o /tmp/fndocker.sh && sudo bash /tmp/fndocker.sh && rm /tmp/fndocker.sh
 ```
+![165053cbgnggf0niboqiig](https://github.com/user-attachments/assets/fa728bbc-cbfb-4da4-b939-227403b98229)
+
+创建完成后，即可重启查看效果，无需进行其他设置。
+此外，后续我们也可以直接对配置文件进行修改，默认位于/vol1/1000/config下，该脚本没有任何限制，完全可自定义，你也可以拿他来做别的事情。手动修改完成后，务必再次授予他可执行权限：
+
+```bash
+chmod +x /你的目录/start_docker.sh
+```
