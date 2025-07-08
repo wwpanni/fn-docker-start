@@ -16,4 +16,4 @@ Compose部署修改方法如下（该方法修改后请手动构建一次以应�
 
 # 执行脚本
 打开终端，输入一下命令，回车执行：
-`sh curl -s https://gitee.com/ewedl/fn-docker-delay/raw/master/fndocker.sh -o /tmp/fndocker.sh && sudo bash /tmp/fndocker.sh && rm /tmp/fndocker.sh
+` sh curl -s https://gitee.com/ewedl/fn-docker-delay/raw/master/fndocker.sh -o /tmp/fndocker.sh && sudo bash /tmp/fndocker.sh && rm /tmp/fndocker.sh
